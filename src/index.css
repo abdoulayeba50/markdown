@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background: #242230;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+}
+.textarea{
+    width: 500px;
+    height: 600px;
+    background: #7cb3c3; 
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.output{
+  width: 300px;
+  height: 350px;
+  background: #fff; 
+  border-radius: 10px; 
+  margin-left: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  word-wrap: break-word;
+  overflow: auto;
+}
+.title{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title h1{
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Noto Serif', serif;
+}
+.title p{
+    color: #3e5156;
+    font-size: 15px;
+}
+
+.button {
+    background-color: #00aada;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    font-family: 'Noto Serif', serif;
+}
+
+
+.button:hover {
+    background-color: #0077b3; 
 }
